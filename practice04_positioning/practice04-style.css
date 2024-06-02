@@ -1,0 +1,116 @@
+body{
+    display: block;
+    justify-content: center;
+}
+.q1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: darksalmon;
+}
+
+.box1-1-style{
+    position: absolute;
+    left: 0%;
+}
+.box1-2-style{
+    position: relative;
+    left: 540px;
+}
+.box1-3-style{
+    position: absolute;
+    right: 0%;
+}
+
+/* =============================================================== */
+
+.q2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.box2-1-style{
+    align-self: flex-start;
+}
+.box2-2-style{
+    align-self: center;
+}
+.box2-3-style{
+    align-self: flex-end;
+}
+
+
+/* =================================================================== */
+
+.q3{
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.box-position{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+/* =================================================================== */
+.q4{
+    margin-top: 50px;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+.box3-position {
+    position: relative;
+    left: 100px;
+    top: -100px;
+}
+
+
+/* =================================================================== */
+.q5{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.wide-box{
+    width: 800px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    position: absolute;
+    right:0%;
+}
+.inner-box-1{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: black;
+    position: absolute;
+    right:0%;
+}
+.inner-box-2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+}

@@ -5,6 +5,7 @@ body {
 }
 
 
+
 .navbar-brand-style{
     color: black;
     font-weight:900;
@@ -78,4 +79,49 @@ footer{
 .first-line {
     color: white;
     border-bottom: 1px solid #392d23;
+}
+
+
+.flag {
+    color: white;
+}
+.mobile-footer {
+border-top: 1px solid #392d23;
+color: white;
+text-align: center;
+font-size: 1.125rem;
+font-weight: 300;
+padding-top: 2rem;
+padding-bottom: 2rem;
+align-items: center;
+display: none;
+}
+@media screen and (max-width: 48rem) {
+.second-line {
+    padding: 0 2rem;
+}
+
+.flag {
+    display: none;
+}
+
+.first-line {
+    text-align: center;
+}
+
+.mobile-footer {
+    display: block;
+}
+}
+.col {
+padding-bottom: 1rem;
+}
+.flag-img {
+margin: 0 0.5rem;
+}
+.col_text {
+    text-decoration-line: none;
+}
+.col_text:hover{
+    text-decoration-line: underline;
 }
